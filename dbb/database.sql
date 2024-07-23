@@ -74,3 +74,26 @@ CREATE TABLE malls (
     ratings DECIMAL(2, 1),
     email VARCHAR(255)
 );
+
+INSERT INTO malls (sno, name, address, phone_no, distance, ratings, email) VALUES
+(1, 'DLF Mall of India', 'Plot No. 1, Sector 18, Noida', '0123456789', 1.0, 4.5, 'info@dlfmallofindia.com'),
+(2, 'Select Citywalk', 'Plot No. 7, District Centre, Saket, New Delhi', '0987654321', 2.0, 4.3, 'contact@selectcitywalk.com'),
+(3, 'Ambience Mall', 'Ambience Island, NH 8, Gurgaon', '0112233445', 3.0, 4.7, 'info@ambiencemall.com'),
+(4, 'Pacific Mall', 'Tagore Garden, New Delhi', '0113344556', 4.0, 4.2, 'contact@pacificmall.in'),
+(5, 'Shopprix Mall', 'Sector 61, Noida', '0122334455', 5.0, 4.0, 'info@shopprixmall.com'),
+(6, 'The Great India Place', 'Sector 38A, Noida', '0123445566', 6.0, 4.4, 'info@tgif.co.in'),
+(7, 'Kempinski Ambience Mall', 'Ambience Island, NH 8, Gurgaon', '0123455566', 7.0, 4.3, 'contact@kempinskiambiencemall.com'),
+(8, 'Mgf Metropolitan Mall', 'Mgf Metropolitan Mall, Saket, New Delhi', '0114567890', 8.0, 4.6, 'info@mgfmetropolitanmall.com'),
+(9, 'Metro Walk Mall', 'Rohini, New Delhi', '0115678901', 9.0, 4.1, 'contact@metrowalkmall.com'),
+(10, 'Westgate Mall', 'Westgate Mall, New Delhi', '0116789012', 10.0, 4.2, 'info@westgatemall.com'),
+(11, 'DLF Place', 'Saket, New Delhi', '0117890123', 11.0, 4.5, 'contact@dlfplace.com'),
+(12, 'Spencer’s Mall', 'Noida', '0128901234', 12.0, 4.0, 'info@spencersmall.com'),
+(13, 'Omaxe Mall', 'New Delhi', '0119012345', 13.0, 4.3, 'info@omaxemall.com'),
+(14, 'Elante Mall', 'Industrial Area, Chandigarh', '0172245566', 14.0, 4.6, 'contact@elantemall.com'),
+(15, 'PVR Plaza', 'Connaught Place, New Delhi', '0112334455', 15.0, 4.1, 'info@pvrplaza.com'),
+(16, 'Central Market', 'Rajouri Garden, New Delhi', '0113445566', 16.0, 4.4, 'info@centralmarket.com'),
+(17, 'City Square Mall', 'Rajouri Garden, New Delhi', '0114556677', 17.0, 4.2, 'contact@citysquaremall.com'),
+(18, 'The Grand Venice Mall', 'Greater Noida', '0123667788', 18.0, 4.5, 'info@grandvenicemall.com'),
+(19, 'Aldea Mall', 'Sushant Lok, Gurgaon', '0124778899', 19.0, 4.3, 'contact@aldeamall.com'),
+(20, 'Galleria Market', 'DLF Phase 4, Gurgaon', '0125889900', 20.0, 4.0, 'info@galleriamarket.com');
+
