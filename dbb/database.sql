@@ -1,7 +1,3 @@
-create database Smartcity;
-use Smartcity
-show tables;
-
 CREATE TABLE school (
     sno INT PRIMARY KEY,
     name VARCHAR(100),
@@ -78,5 +74,3 @@ CREATE TABLE malls (
     ratings DECIMAL(2, 1),
     email VARCHAR(255)
 );
-
-show databases;
